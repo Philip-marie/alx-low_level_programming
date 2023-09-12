@@ -1,0 +1,3 @@
+#!/bin/bash
+CFILE=4-puts.c
+gcc -S -masm=intel $CFILE -o "${CFILE%.c}.s"
